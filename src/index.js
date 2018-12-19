@@ -1,7 +1,9 @@
 import React from 'react';
 import {render} from 'react-dom';
 
+import App from './app';
+
 render(
-  React.createElement("div", null, "Hello World"),
+  <App userName="Alex" />,
   document.getElementById("root")
 );
